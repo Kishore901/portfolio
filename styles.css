@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* top: #f2f6f5  */
+/* alternate: #EDF8FC */
+/* alternate: #EEABA2*/
+/* footer:#0A0A0A */
+/* font:#767877 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.main1 {
+  background-image: url("/images/main.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.main1 h1 {
+  margin-top: 110px;
+}
+.main1 a {
+  text-decoration: none;
+  outline: none;
+  margin: 0 30px 0 10px;
+  color: black;
+}
+.main1 a:hover {
+  color: #767877;
+}
+.fa-google:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover {
+  font-size: 30px;
+}
+.icons {
+  margin: 20px;
+  font-size: 25px;
+}
+nav {
+  /* background-color: #03132b; */
+  /* background-color: #073751; */
+  background-color: #07172f;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 450;
+}
+nav ul li {
+  margin-left: 40px;
+}
+nav ul li button:hover {
+  color: #2d90a6;
+}
+.main2 {
+  background-color: #43a3b1;
+  height: auto;
+  padding: 90px;
+}
+.main2-content {
+  margin: 5px 0 20px 0;
+}
+.main2 h1 {
+  margin-top: 30px;
+}
+.interest {
+  background-color: #43a3b1;
+}
+.interest h4 {
+  padding: 10px 90px;
+}
+.interest-content {
+  display: flex;
+  padding: 30px;
+}
+.int-1 {
+  text-align: center;
+  flex: 1 1 0px;
+}
+.int-2 {
+  text-align: center;
+  flex: 1 1 0px;
+}
+.int-3 {
+  text-align: center;
+  flex: 1 1 0px;
+}
+.interest-content .img-1 {
+  width: 70%;
+  height: 250px;
+}
+.interest-content .img-2 {
+  width: 80%;
+  height: 250px;
+}
+.interest-content .img-3 {
+  width: 80%;
+  height: 250px;
+}
+.main3 {
+  background-color: #fc8b7c;
+  height: auto;
+  padding: 90px;
+}
+.edu-ul {
+  margin-top: 30px;
+  list-style: none;
+}
+.main3 h1 {
+  margin-top: 10px;
+}
+.main3 h4 {
+  font-size: large;
+}
+.main4 {
+  background-color: #1d1d25;
+  color: white;
+}
+footer {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 90px;
+  text-align: center;
+}
+footer p {
+  margin-top: 10px;
+}
+footer h1 {
+  font-weight: 500;
+}
+footer a {
+  margin-top: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  outline: none;
+  margin: 0 30px 0 10px;
+  color: #ffffff;
+}
+.main4-content {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 10px;
+}
+.main4 h2 {
+  padding-top: 30px;
+  padding-left: 90px;
+}
+.container1 {
+  grid-column: 1/3;
+  grid-row: 1/4;
+  text-align: center;
+}
+.container1 img {
+  /* width: 550px; */
+  width: 100%;
+  height: 500px;
+}
+.container1 p {
+  padding: 20px;
+  text-align: center;
+}
+.container2 {
+  grid-column: 3/5;
+  grid-row: 1/2;
+  text-align: center;
+}
+.container2 img {
+  width: 70%;
+  height: 220px;
+  /* margin: 0 145px; */
+}
+.container3 {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  text-align: center;
+}
+.container3 img {
+  width: 70%;
+  height: 220px;
+}
+/* .main4-img {
+  width: 300px;
+  height: auto;
+} */
+@media screen and (max-width: 750px) {
+  nav ul {
+    justify-content: center;
+  }
+  .main4-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 img {
+    width: 70%;
+    height: 220px;
+  }
+  .main2-content {
+    text-align: center;
+  }
+  .main2-content h1 {
+    font-size: 20px;
+  }
+  .main3-content {
+    text-align: center;
+  }
+  .main3-content h1 {
+    font-size: 20px;
+  }
+  .main4 h2 {
+    text-align: center;
+    padding: 30px 0 0;
+  }
+  .main2,
+  .main3 {
+    padding: 20px;
+  }
+  footer {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .interest-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .int-1,
+  .int-2,
+  .int-3 {
+    padding: 20px;
+  }
+  .interest-content .img-1 {
+    width: 50%;
+    height: 200px;
+  }
+  .interest-content .img-2 {
+    width: 60%;
+    height: 200px;
+  }
+  .interest-content .img-3 {
+    width: 60%;
+    height: 200px;
+  }
+  .interest {
+    text-align: center;
+  }
+}
