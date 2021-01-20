@@ -17,7 +17,7 @@ body {
   color: black;
 }
 .main1 {
-  background-image: url("/images/main.jpg");
+  background-image: url("/images/mainpic.jpg");
   height: 90vh;
   background-size: cover;
   background-position: center;
