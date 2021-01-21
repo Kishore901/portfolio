@@ -14,10 +14,6 @@ ScrollReveal().reveal(".main4-h2", { delay: 500 });
 ScrollReveal().reveal(".main4-content", { delay: 700 });
 
 edu.addEventListener("click", () => {
-  //   window.scrollTo({
-  //     top: 900,
-  //     behavior: "smooth",
-  //   });
   edu_scr.scrollIntoView();
 });
 int.addEventListener("click", () => {
